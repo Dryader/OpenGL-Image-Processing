@@ -113,7 +113,7 @@ After manipulation, the colors are converted back to RGB for display.
 
 ## Keyboard Controls
 
-- **ESC**: Exit the application (when implemented)
+- **ESC**: Exit the application
 
 ## Customization
 
@@ -121,7 +121,10 @@ After manipulation, the colors are converted back to RGB for display.
 1. Place your image files in `Midterm/Assets/Textures/`
 2. Update the texture loading code in `Mesh.cpp`:
    ```cpp
-   m_texture.LoadTexture("Assets/Textures/YourTexture.jpg");
+   // Replace first texture
+   m_texture.LoadTexture("Assets/Textures/YourTexture1.jpg");
+   // Replace second texture
+   m_texture2.LoadTexture("Assets/Textures/YourTexture2.jpg");
    ```
 
 ### Modifying Shaders
